@@ -1,0 +1,14 @@
+START WITH
+    [id]:        [...]
+    [type]:      [soal/etc]
+    [seq]:       [...]
+    [data]:      [...]
+    [sisa_waktu] [...])
+POST JAWABAN
+    id:         [id]
+    type:       [jawaban/etc]
+    seq:        [seq]
+    data:       [...]
+    waktu_awal: [sisa_waktu]
+RESPONSE
+

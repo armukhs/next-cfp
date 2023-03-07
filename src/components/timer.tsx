@@ -24,7 +24,7 @@ export default function Timer({ duration, counter, state }: TimerProps) {
     return () => {
       clearInterval(flag);
     }
-  }, [duration])
+  }, [duration, counter])
 
   return (
     <div>
